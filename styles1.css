@@ -1,0 +1,40 @@
+h1{
+  background-color: #70AD72
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+img1 {
+  width: 300px;
+  height: 500px;
+}
+
+IMG.displayed {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 4px #AAA;
+  }
+
+.header {
+  background: ##70AD72;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h3 {
+  border-bottom: solid 4px #70AD72;
+  padding-bottom: 8px;
+}
