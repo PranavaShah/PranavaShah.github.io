@@ -11,7 +11,7 @@ $(document).ready(function() {
 // It also updates the counter at the top of the screen.
 function addItem() {
   // console.log("yes!")
-  text = window.prompt("New To-Do Item");
+  text = window.prompt("New Bucket Item");
   delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
   //
