@@ -6,10 +6,14 @@ $(document).ready(function() {
 });
 
 function addItem() {
-  // console.log("yes!")
+  // console.log("Test!")
   text = window.prompt("New Bucket Item");
   delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
+  //
+  numItems = $("li").length;
+  $(".total").html(numItems + " items");
+}
 
 function deleteItem(event) {
   console.info(event);
